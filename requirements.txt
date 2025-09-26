@@ -1,0 +1,22 @@
+# -------------------------------------------------------
+# requirements.txt
+# -------------------------------------------------------
+# Purpose Summary:
+#   - Defines pinned Python dependencies for the public Flask demo.
+#   - Mirrors production style (Flask + gunicorn) without private SDKs.
+# Audit:
+#   - All versions explicitly pinned.
+#   - Demo-safe; local-only use.
+# -------------------------------------------------------
+
+Flask==2.3.3
+gunicorn==20.1.0
+requests==2.31.0
+python-dotenv==1.0.1
+python-dateutil==2.9.0.post0
+
+# -------------------------------------------------------
+# Notes:
+# - Install:  pip install -r requirements.txt
+# - Run:      gunicorn -w 4 -t 120 -b 0.0.0.0:8001 "src.main:app"
+# -------------------------------------------------------

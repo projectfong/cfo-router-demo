@@ -1,0 +1,14 @@
+
+# --------------------------------------------------------
+# docker-compose.example.yml (demo only; local testing)
+# Do NOT expose these ports to the internet.
+# --------------------------------------------------------
+services:
+  cfo_router_demo:
+    build: .
+    container_name: cfo-router-demo
+    environment:
+      - ROUTER_BIND=0.0.0.0
+      - ROUTER_PORT=8001
+    ports:
+      - "8001:8001"  # local access only
