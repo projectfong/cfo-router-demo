@@ -61,6 +61,16 @@ Screenshots from a local test environment (sensitive details redacted):
 * **Router logs processing a query**
   ![Logs](docs/logs.png)
 
+  ---
+
+  ## 🔹 Private Gitea Screenshot
+
+  Screenshot from local private Gitea repo (sensitive details redacted):
+
+  * **cfo-router repo**
+
+  ![Router](docs/router-local.png)
+
 ---
 
 ## 🔹 Disclaimer
